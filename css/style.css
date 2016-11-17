@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -13,10 +13,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     src:url(../fonts/Audiowide-Regular.ttf) format('truetype');
 }
 body{
-	
+
 	font-family: 'Imprima-Regular';
 	background:#000;
-	
+
 }
 body a{
 	transition: 0.5s all;
@@ -28,7 +28,7 @@ body a{
  ul{
 	padding: 0;
 	margin: 0;
-	
+
 }
 h1,h2,h3,h4,h5,h6,p,label{
 	margin:0;
@@ -293,7 +293,7 @@ h1,h2,h3,h4,h5,h6,p,label{
 }
 /*--content-bottom--*/
 .content-bottom-top1{
-	
+
 }
 .content-bottom-top1 h3{
 	color: #29C4CA;
@@ -362,6 +362,10 @@ h1,h2,h3,h4,h5,h6,p,label{
 }
 .gallery {
   padding: 4em 0;
+}
+
+.adminpannel {
+  padding: 8em 0;
 }
 
 .da-thumbs {
@@ -436,7 +440,7 @@ h1,h2,h3,h4,h5,h6,p,label{
 }
 .contact-bottom  input[type="text"]{
 	width:100%;
-	padding:1em;	
+	padding:1em;
 	border:1px solid #fff;
 	-webkit-appearance:none;
 	outline:none;
@@ -455,7 +459,7 @@ h1,h2,h3,h4,h5,h6,p,label{
 
 .contact-bottom-top textarea{
 	width:100%;
-	padding:1em;	
+	padding:1em;
 	border:1px solid #fff;
 	-webkit-appearance:none;
 	outline:none;
@@ -505,7 +509,7 @@ h1,h2,h3,h4,h5,h6,p,label{
 .address1 p{
 	font-size:1.8em;
 	color: #fff;
-	line-height: 1.5em;	
+	line-height: 1.5em;
 }
 .address-more h4{
 	color:#fff;
@@ -554,13 +558,13 @@ ul.grid-blog li{
 ul.grid-blog li a, ul.grid-blog li span{
 	text-decoration: none;
 	font-size: 1.1em;
-	color: #504D4D;	
+	color: #504D4D;
 	display: inline-block;
 	margin: 0 1em 0 0;
 }
 ul.grid-blog li i{
 	margin: 0 5px 0 0;
-	  color: #29C4CA;	
+	  color: #29C4CA;
 }
 ul.grid-blog {
   padding: 0.5em 0;
@@ -608,7 +612,7 @@ ul.popular li a{
 	text-decoration: none;
 	font-size: 1em;
 	color:#504D4D;
-	margin:1em 0 0;	
+	margin:1em 0 0;
 	  display: block;
 }
 ul.popular li a:hover{
@@ -671,7 +675,7 @@ ul.popular {
 }
 .top-comment-right p{
 	padding: 0.4em 0 ;
-	border-bottom: 1px solid #E8E6E6;	
+	border-bottom: 1px solid #E8E6E6;
 }
 .comments-top-top {
 	margin: 1.5em 0;
@@ -694,8 +698,8 @@ a.reply:hover{
 .name span{
 	color:#29C4CA;
 	font-size: 1.2em;
-	padding: 0 2.2em 0 0;	
-	
+	padding: 0 2.2em 0 0;
+
 }
 .name-at span{
 	padding: 0 2.3em 0 0;
@@ -744,7 +748,7 @@ a.reply:hover{
 .page-header h3{
 	font-size: 3em;
 	color:#000;
-	
+
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
   padding: 8px;
@@ -769,10 +773,10 @@ h3.typo1 {
 /*--//typo--*/
 /*--responsive--*/
 @media(max-width:1366px){
-	
+
 }
 @media(max-width:1280px){
-	
+
 }
 @media(max-width:1024px){
 .banner-main {
@@ -856,7 +860,7 @@ span.menu{
 	padding:0.4em;
 }
 .top-nav ul li.active a{
-	color:#000;	
+	color:#000;
 }
 .top-nav {
   margin-top: 1.1em;
@@ -866,7 +870,7 @@ span.menu{
 }
 .banner-main {
   padding: 17em 0em 0em 0em;
-}	
+}
 .header {
   min-height: 495px;
 }
@@ -1159,7 +1163,7 @@ a.reply {
 }
 /*--typo--*/
 .page-header h3 {
-  font-size: 2em; 
+  font-size: 2em;
 }
 button.btn.btn-lg {
   font-size: 1em;
@@ -1210,7 +1214,7 @@ h3.typo1 {
 }
 .banner-matter {
   width: 100%;
-}	
+}
 .banner-matter h3 {
   font-size: 1.1em;
 }
@@ -1455,5 +1459,5 @@ h3.typo1 {
 }
 .page-header h3 {
   font-size: 1.8em;
-} 
+}
 }
