@@ -3879,14 +3879,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 
-.nav-custom {
-  position:absolute;
-  border:2px solid;
-  border-color:#337ab7;
-  border-radius:4px;
-  padding: 1px 1px 1px 1px;
-}
-
 .nav {
   padding-left: 0;
   margin-bottom: 0;
@@ -4067,6 +4059,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a:focus {
     border-bottom-color: #fff;
   }
+}
+.nav-custom {
+  position:absolute;
+  border:2px solid;
+  border-color:#337ab7;
+  border-radius:4px;
+  padding: 1px 1px 1px;
+  padding-left: 1px;
 }
 .tab-content > .tab-pane {
   display: none;
