@@ -82,6 +82,9 @@ h1,h2,h3,h4,h5,h6,p,label{
 .top-nav span.menu {
 	display: none;
 }
+.top-nav span.menu-custom{
+  display: none;
+}
 /* Sweep To Bottom */
 .hvr-sweep-to-bottom {
   display: inline-block;
@@ -825,12 +828,26 @@ h3.typo1 {
   padding: 1.6em 0.5em;
 }
 }
+.menu-custom{
+  display: none;
+}
 @media(max-width:768px){
 span.menu{
 	display: block;
 	text-align: right;
 	cursor: pointer;
 	position: relative;
+}
+.menu-custom{
+  display: block;
+  text-align: right;
+  float: right;
+  cursor: pointer;
+  position: relative;
+
+}
+.menu-custom img{
+  width: 50%;
 }
 .top-nav ul{
 	display: none;
@@ -1459,5 +1476,8 @@ h3.typo1 {
 }
 .page-header h3 {
   font-size: 1.8em;
+}
+.dropdown-menu>li>a {
+  text-align:center;
 }
 }

@@ -296,7 +296,7 @@
     };
     defaultFileActionSettings = {
         showRemove: true,
-        showUpload: true,
+        showUpload: false,
         showZoom: true,
         showDrag: true,
         removeIcon: '<i class="glyphicon glyphicon-trash text-danger"></i>',
@@ -3159,7 +3159,7 @@
         showBrowse: true,
         showPreview: true,
         showRemove: true,
-        showUpload: true,
+        showUpload: false,
         showCancel: true,
         showClose: true,
         showUploadedThumbs: true,
