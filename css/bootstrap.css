@@ -1080,6 +1080,9 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+.glyphicon-custom {
+  margin-right:5px;
+}
 html {
   font-size: 10px;
 
@@ -4071,7 +4074,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media(max-width:768px) {
   .nav-custom {
-    position: relative;;
+    position: relative;
     background-color: white;
     text-align: center;
     width: 100% !important;
@@ -4083,7 +4086,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .nav-stacked > li + li {
     margin-top: 0; */
-}
+  }
 }
 .tab-content > .tab-pane {
   display: none;
@@ -4172,6 +4175,27 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
     margin-left: 0;
   }
+}
+.navbar-collapse ul li a.color{
+	background:#e8008a;
+}
+.navbar-collapse ul li a.color1{
+	background: #01adef;
+}
+.navbar-collapse ul li a.color2{
+	background: #d7df29;
+}
+.navbar-collapse ul li a.color3{
+	background: #5e2c8f;
+}
+.navbar-collapse ul li a.color4{
+	background: #ffc410;
+}
+.navbar-collapse ul li a.color5{
+	background: #df2832;
+}
+.navbar-collapse ul li a{
+  color:white;
 }
 .navbar-static-top {
   z-index: 1000;
@@ -6404,8 +6428,12 @@ button.close {
 .hidden {
   display: none !important;
 }
+@media (min-width: 1000px) {
 .affix {
   position: fixed;
+  top:0;
+  width: 100%;
+}
 }
 @-ms-viewport {
   width: device-width;
