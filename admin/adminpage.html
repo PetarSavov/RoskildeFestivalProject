@@ -72,14 +72,32 @@
                                 <div class="panel-body">
                                     <div class="collapse navbar-collapse" data-spy="affix" data-offset-top="215">
                                         <ul class="sidebar-nav nav nav-pills nav-stacked nav-custom ">
-                                            <li><a href="#events" data-toggle="tab" class="active hvr-sweep-to-bottom color2"><i class="glyphicon glyphicon-tags glyphicon-custom"></i>Events</a></li>
                                             <li><a data-toggle="tab" href="#artists" class="hvr-sweep-to-bottom color1"><i class="glyphicon glyphicon-picture glyphicon-custom"></i>Artists</a></li>
+                                            <li><a href="#events" data-toggle="tab" class="active hvr-sweep-to-bottom color2"><i class="glyphicon glyphicon-tags glyphicon-custom"></i>Events</a></li>
                                             <li><a data-toggle="tab" href="#songs" class="hvr-sweep-to-bottom color5"><i class="glyphicon glyphicon-headphones glyphicon-custom"></i>Songs</a></li>
                                             <li><a data-toggle="tab" href="#categories" class="hvr-sweep-to-bottom color3"><i class="glyphicon glyphicon-calendar glyphicon-custom"></i>Categories</a></li>
                                         </ul>
                                     </div>
                                     <div class="tab-content">
-                                        <div id="events" class="col-md-4 col-md-offset-4 tab-pane fade in active">
+                                        <div id="artists" class="col-md-4 col-md-offset-4 tab-pane fade in active">
+                                            <div class="form-group">
+                                                <h3 class="h3-custom"><span class="label label-custom">Name</span></h3>
+                                                <input id="ArtName" class="form-control" style="resize:none"></input>
+                                            </div>
+                                            <div class="form-group">
+                                                <h3 class="h3-custom"><span class="label label-custom">Description</span></h3>
+                                                <textarea name="name" class="form-control" draggable="false" style="resize:none" rows="8" cols="40"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <h3 class="h3-custom"><label class="label label-custom">Select File</label></h3>
+                                                <input id="file-4" type="file" class="file" data-upload-url="#">
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="button" class="btn btn-1 btn-success btn-block" name="Submit">Submit</button>
+                                                <button type="button" class="btn btn-1 btn-danger btn-block" name="Cancel">Cancel</button>
+                                            </div>
+                                        </div>
+                                        <div id="events" class="col-md-4 col-md-offset-4 tab-pane fade">
                                             <div class="form-group">
                                                 <h3 class="h3-custom"><span class="label label-custom">Title</span></h3>
                                                 <input class="form-control" style="resize:none" required></input>
@@ -115,23 +133,32 @@
                                                 <button type="button" class="btn btn-1 btn-danger btn-block" name="Cancel">Cancel</button>
                                             </div>
                                         </div>
-                                        <div id="artists" class="col-md-4 col-md-offset-4 tab-pane fade">
+                                        <div id="songs" class="col-md-4 col-md-offset-4 tab-pane fade">
                                             <div class="form-group">
-                                                <h3 class="h3-custom"><span class="label label-custom">Name</span></h3>
-                                                <input id="ArtName" class="form-control" style="resize:none"></input>
+                                                <h3 class="h3-custom"><span class="label label-custom">Title</span></h3>
+                                                <input class="form-control" style="resize:none" required></input>
                                             </div>
                                             <div class="form-group">
-                                                <h3 class="h3-custom"><span class="label label-custom">Description</span></h3>
-                                                <textarea name="name" class="form-control" draggable="false" style="resize:none" rows="8" cols="40"></textarea>
+                                                <h3 class="h3-custom"><span class="label label-custom">Download Link</span></h3>
+                                                <input class="form-control" style="resize:none" required></input>
                                             </div>
                                             <div class="form-group">
-                                                <h3 class="h3-custom"><span class="label label-custom">Choose Songs</span></h3>
-                                                <select class="selectpicker form-control" data-live-search="true" title="Songs" required multiple>
-                                                  <option class="option-center" value="">Dust in the wind</option>
-                                                  <option class="option-center" value="">Rollin</option>
-                                                  <option class="option-center" value="">Poison</option>
-                                                  <option class="option-center" value="">Duhast</option>
-                                                </select>
+                                                <h3 class="h3-custom"><span class="label label-custom">Choose Artist</span></h3>
+                                                <select class="selectpicker form-control" data-live-search="true" title="Artists" required multiple>
+                                                <option class="option-center" value="">Justin Case</option>
+                                                <option class="option-center" value="">Justin Time</option>
+                                                <option class="option-center" value="">Al Coholic</option>
+                                                <option class="option-center" value="">Stu Pit</option>
+                                              </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <h3 class="h3-custom"><span class="label label-custom">Choose Album</span></h3>
+                                                <select class="selectpicker form-control" data-live-search="true" title="Albums" required multiple>
+                                              <option class="option-center" value="">Single</option>
+                                              <option class="option-center" value="">Silver Album</option>
+                                              <option class="option-center" value="">Golden Album</option>
+                                              <option class="option-center" value="">Platinum Album</option>
+                                            </select>
                                             </div>
                                             <div class="form-group">
                                                 <h3 class="h3-custom"><label class="label label-custom">Select File</label></h3>
@@ -141,20 +168,6 @@
                                                 <button type="button" class="btn btn-1 btn-success btn-block" name="Submit">Submit</button>
                                                 <button type="button" class="btn btn-1 btn-danger btn-block" name="Cancel">Cancel</button>
                                             </div>
-                                        </div>
-                                        <div id="songs" class="tab-pane fade">
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <div class="form-group">
-                                                <h3 class="h3-custom"><label class="label label-custom">This part of the page is under construction</label></h3>
-                                            </div>
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <br />
                                         </div>
                                         <div id="categories" class="tab-pane fade">
                                             <br />
