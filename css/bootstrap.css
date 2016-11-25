@@ -2667,6 +2667,11 @@ input[type="search"] {
   vertical-align: middle;
   cursor: pointer;
 }
+@media (min-width: 1000px) {
+  .checkbox-custom {
+    position: absolute;
+  }
+}
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
@@ -4069,6 +4074,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border:2px solid;
   border-color:#337ab7;
   border-radius:4px;
+  top: 40px;
   padding: 1px 1px 1px;
   padding-left: 1px;
 }
@@ -4078,6 +4084,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-color: white;
     text-align: center;
     width: 100% !important;
+    top:0;
     left: 0;
     z-index: 9998;
     border:2px solid;
@@ -4086,6 +4093,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .nav-stacked > li + li {
     margin-top: 0; */
+  }
+  .checkbox-custom {
+    position: relative;
   }
 }
 .tab-content > .tab-pane {
